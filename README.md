@@ -55,4 +55,17 @@ ComponentWillMount is no more used.
 - It gets called just before next render.
 - It can be used for side-effects.
 - It gives snapshot of DOM before updating the state.
-- 
+# Unmounting phase
+- it has only one function componentWillMount(), it gets called just before the component is removed from DOM.
+- All cleanup things can be performed.
+# Error Handeling through Error Boundries.
+- Error boundries are React conponents having some predefined function associated to handle the errors.
+- Only class based components have Error Voundries.
+- Error boundaries can catch error in any lifecycle method. 
+- getDerivedStateFromError() and componentDidCatch()
+# static getDerivedStateFromError() 
+- It does not allow side effect.
+- It is called during the render method.
+# componentDidCatch(error, info)
+- We can use sideeffect.
+- It has error and information like which decendant component has error.
