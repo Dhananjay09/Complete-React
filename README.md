@@ -67,5 +67,42 @@ ComponentWillMount is no more used.
 - It does not allow side effect.
 - It is called during the render method.
 # componentDidCatch(error, info)
-- We can use sideeffect.
+- We can use sideffect.
 - It has error and information like which decendant component has error.
+
+# React Hooks
+- React hooks are the functions that allows to use state and lifecycle features.
+- Hooks makes function component stateful from stateless.
+- Hooks doesn't wprk in class based components.
+# useState 
+- it can't be used conditionaly.
+- It should be declared at the top lavel.
+# Effect Hook
+- It allows to make sideeffect in the components.
+- Side effects are Data Fetching, Setting up subscription, and manually changing the DOM is reffered as Side Effect.
+- This is combination of conponentDidMount, conponentDidUpdate, componentWillUnmount.
+- addEventListner is used inside the function, always make sure to cleanup everything.
+- useEffect return the cleanup methods, where everything is cleanedup before the nextRender happens.
+- useEffect is good fit to change the DOM, like title of the page, using 'window.title'.
+- By default useEffect gets fired in all the re-renders(), but we can contraint it by passing second argument, as dependancy array.
+- [a,b,c,d] meants any of the argument
+# Effect as componentDidMount()
+- useEffect(()=>{}, []) as we are passing an empty array that means useeffect wount not get fired on any changes in the component.
+# Effect as componentDidUpdate()
+- useEffect(()=>{}, [some value]) or useEffect(()=>{}) in this case useEffect get fired many times depending on changes in component, so it is working as componentDidMount and componentDidUpdate.
+# Effect as componentWillUnmount()
+- useEffect(()=>{ return function cleanup() }, []), when we keep something insde the cleanup it works as componentWillUnmount.
+
+# useRef hook
+- It is a hook whose value is fixed throughout the lifecycle of the Component.
+- As name suggest it is helpful in getting the reference to a DOM element.
+- const value = useRef(); // syntax for useref
+- The object of useRef is not used directly, it is used as value.current.
+# Debouncing
+- It is helpful to constrain any task getting happened again and again, or making any function getting called after a specific time interval.
+- It is not the function of React, but part of lodash.
+# useReducer
+- It is alternative of useState, so used for state management.
+- It is preferable to use when complex state logic that involves multiple sub-value or when next state is dependent on previous state.
+- It is helpful make the component more moduler, becaus estate management in seperated out from the Component.
+- const [state, dispatch] = useReducer(updateState , {});
