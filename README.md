@@ -108,3 +108,5 @@ ComponentWillMount is no more used.
 - const [state, dispatch] = useReducer(updateState , {});
 # useMemo
 - It is react hook used for optimize the heavy functions. 
+# List Virtualization or windowing
+- It is an optimization method used for rendering only the part of component or App that is visible to user.
