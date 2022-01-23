@@ -106,3 +106,5 @@ ComponentWillMount is no more used.
 - It is preferable to use when complex state logic that involves multiple sub-value or when next state is dependent on previous state.
 - It is helpful make the component more moduler, becaus estate management in seperated out from the Component.
 - const [state, dispatch] = useReducer(updateState , {});
+# useMemo
+- It is react hook used for optimize the heavy functions. 
