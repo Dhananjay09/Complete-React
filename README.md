@@ -110,3 +110,21 @@ ComponentWillMount is no more used.
 - It is react hook used for optimize the heavy functions. 
 # List Virtualization or windowing
 - It is an optimization method used for rendering only the part of component or App that is visible to user.
+# react-window
+- It take care of window the objects.
+- import { FixedSizeList as List } from 'react-window';
+ 
+const Row = ({ index, style }) => (
+  <div style={style}>Row {index}</div>
+);
+ 
+const Example = () => (
+  <List
+    height={150}
+    itemCount={1000}
+    itemSize={35}
+    width={300}
+  >
+    {Row}
+  </List>
+);
