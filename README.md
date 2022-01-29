@@ -148,7 +148,7 @@ const Example = () => (
 - Library can be used everywhere the DOM exist.
 # Queries
 - To get or access elements in the DOM.
-# get
+# getBy
 - To find one and only one element, else exception is thrown.
-# query
-- 
+# queryBy
+- find is used for one element but it is async/await.
