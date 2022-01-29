@@ -158,4 +158,5 @@ const Example = () => (
 - Redux is a container or kind of array when data can be stored. Just like store room in the home which can contain everything for the project.
 - It get dishappeared after refreshing.
 - It is used for state management of the application not for component.
-- 
+- ![Redux Architecture](https://github.com/Dhananjay09/Complete-React/blob/main/Screenshot%20from%202022-01-27%2007-09-59.png)
+
