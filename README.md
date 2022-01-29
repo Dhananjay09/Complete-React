@@ -129,4 +129,5 @@ const Example = () => (
   </List>
 );
 # React Testing
-## 
+## Mocks 
+- Mocks are objects that simmulate realistic behaviour.
