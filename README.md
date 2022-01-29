@@ -146,3 +146,9 @@ const Example = () => (
 - Display the information of success/failure of test.
 # Dom Testing Library
 - Library can be used everywhere the DOM exist.
+# Queries
+- To get or access elements in the DOM.
+# get
+- To find one and only one element, else exception is thrown.
+# query
+- 
