@@ -152,3 +152,5 @@ const Example = () => (
 - To find one and only one element, else exception is thrown.
 # queryBy
 - find is used for one element but it is async/await.
+# Selectors
+- ByRole
