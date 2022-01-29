@@ -128,6 +128,21 @@ const Example = () => (
     {Row}
   </List>
 );
+
 # React Testing
-## Mocks 
-- Mocks are objects that simmulate realistic behaviour.
+# Mocks 
+- Mocks are objects that simmulate realistic behaviour. Stub and fakes are simmilar.
+# Spies
+- These are also mock functions but they remember many more things like how many times and when function had been called.
+# Assertion Library
+- It used to assert something in the left or right had side values.
+# Test Framework
+- Used to organize and execute tests. Test runners are also simmiler. 
+# Testing Environment
+- Where are we testing.
+# Code Coverage
+- Module to inform how many code has been tested.
+# Test Reporter
+- Display the information of success/failure of test.
+# Dom Testing Library
+- Library can be used everywhere the DOM exist.
