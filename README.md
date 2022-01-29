@@ -154,3 +154,8 @@ const Example = () => (
 - find is used for one element but it is async/await.
 # Selectors
 - ByRole
+# Redux
+- Redux is a container or kind of array when data can be stored. Just like store room in the home which can contain everything for the project.
+- It get dishappeared after refreshing.
+- It is used for state management of the application not for component.
+- 
