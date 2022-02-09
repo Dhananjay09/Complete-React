@@ -58,6 +58,7 @@ ComponentWillMount is no more used.
 # Unmounting phase
 - it has only one function componentWillMount(), it gets called just before the component is removed from DOM.
 - All cleanup things can be performed.
+![Lifecycle](https://github.com/Dhananjay09/Complete-React/blob/main/Screenshot%20from%202022-01-21%2019-08-00.png)
 # Error Handeling through Error Boundries.
 - Error boundries are React conponents having some predefined function associated to handle the errors.
 - Only class based components have Error Voundries.
@@ -159,4 +160,3 @@ const Example = () => (
 - It get dishappeared after refreshing.
 - It is used for state management of the application not for component.
 - ![Redux Architecture](https://github.com/Dhananjay09/Complete-React/blob/main/Screenshot%20from%202022-01-29%2012-50-25.png)
-
