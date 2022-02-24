@@ -153,6 +153,7 @@ const Example = () => (
 - To find one and only one element, else exception is thrown.
 # queryBy
 - find is used for one element but it is async/await.
+![](https://github.com/Dhananjay09/Complete-React/blob/main/Screenshot%20from%202022-02-24%2015-00-45.png)
 # Selectors
 - ByRole
 # Redux
